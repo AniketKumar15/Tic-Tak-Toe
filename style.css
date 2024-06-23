@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body{
+    text-align: center;
+    background-color: #EEEEEE;
+}
+.game-name{
+    margin-top: 20px;
+    font-size: 5vh;
+}
+.container{
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    background-color: #686D76;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #DC5F00;
+}
+
+#reset-btn{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: #EEEEEE;
+    border-radius: 1rem;
+    background-color: #373A40;
+    border: none;
+}
+
+#reset-btn:hover{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: #EEEEEE;
+    border-radius: 1rem;
+    background-color: #677fad;
+    border: none;
+}
+
+#new-btn{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: #EEEEEE;
+    border-radius: 1rem;
+    background-color: #373A40;
+    border: none;
+}
+
+#audio-btn{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: #EEEEEE;
+    border-radius: 1rem;
+    background-color: #373A40;
+    border: none;
+}
+#audio-btn:hover{
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: #EEEEEE;
+    border-radius: 1rem;
+    background-color: #677fad;
+    border: none;
+}
+
+#msg {
+    color: #DC5F00;
+    font-size: 5vmin;
+}
+  
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+  
+.hide {
+    display: none;
+}
